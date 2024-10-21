@@ -10,9 +10,9 @@ Click on the link to vote for your favorite presentation:
 <a href="sms:223333?&body=994144">Beatles</a>
 </li>
 <li>
-<a href="sms:223333?&body=994145">Ben's Batallion</a>
+<a href="sms:223333?&body=994145">Bobs's Batallion</a>
 </li>
 <li>
-<a href="sms:223333?&body=994146">Jenny's Quokkas</a>
+<a href="sms:223333?&body=994146">Ralphs's Quokkas</a>
 </li>
 </ul>
