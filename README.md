@@ -4,7 +4,7 @@ Click on the link to vote for your favorite presentation:
 
 <ul>
 <li>
-<a href="sms:223333?&body=994143">Swizzlers</a>
+<a href="sms:223333?&body=994143">Confetti</a>
 </li>
 <li>
 <a href="sms:223333?&body=994144">Beatles</a>
