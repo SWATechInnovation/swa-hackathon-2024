@@ -1,77 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+
   <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+  <style>
+    .row {
+      display: flex;
+    }
+
+    /* Left column for text */
+    .left {
+      flex: 50%;
+      padding-right: 20px;
+    }
+
+    /* Right column for image */
+    .right {
+      flex: 50%;
+    }
+
+    /* Image style */
+    .right img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
+
 <body>
-  <h4>SWA Hackathon 2024 - Text to Vote For Your Favorite Presentation.</h4>
-  
-  <p>Click on the link to vote for your favorite presentation. Your text
-  messaging app will open with a pre-populated message. Send to vote! OR, text
-  the 5-digit team code to 22333.</p>
-  
-  <div>
-    <a href="sms:22333?&body=43658">(43658) Quest for Rewards</a>
+  <div class="top-text">
+    <h4>SWA Hackathon 2024 - Text to Vote For Your Favorite Presentation.</h4>
+
+    <p>Click on the link to vote for your favorite presentation. Your text
+      messaging app will open with a pre-populated message. Send to vote! OR, text
+      the 5-digit team code to 22333.</p>
   </div>
-  <div>
-    <a href="sms:22333?&body=43679">(43679) The Swizzlers</a>
+
+  <div class="row">
+    <div class="left">
+      <div>
+        <a href="sms:22333?&body=43658">(43658) Quest for Rewards</a>
+      </div>
+      <div>
+        <a href="sms:22333?&body=43679">(43679) The Swizzlers</a>
+      </div>
+      <div>
+        <a href="sms:22333?&body=43775">(43775) Servettesaga</a>
+      </div>
+      <div>
+        <a href="sms:22333?&body=43816">(43816) SWA Tech Tok</a>
+      </div>
+      <div>
+        <a href="sms:22333?&body=43927">(43927) Tapped In</a>
+      </div>
+      <div>
+        <a href="sms:22333?&body=43960">(43960) SWAgents of Skywise AI</a>
+      </div>
+      <div>
+        <a href="sms:22333?&body=44064">(44064) Wild Turkeys</a>
+      </div>
+      <div>
+        <a href="sms:22333?&body=44134">(44134) SWAvengers</a>
+      </div>
+      <div>
+        <a href="sms:22333?&body=44138">(44138) Hackforce One</a>
+      </div>
+      <div>
+        <a href="sms:22333?&body=44627">(44627) DataXplorers</a>
+      </div>
+      <div>
+        <a href="sms:22333?&body=44668">(44668) McGenZ & Company</a>
+      </div>
+      <div>
+        <a href="sms:22333?&body=44681">(44681) SWAna-Get-Away</a>
+      </div>
+      <div>
+        <a href="sms:22333?&body=44698">(44698) Avant Garde</a>
+      </div>
+      <div>
+        <a href="sms:22333?&body=44723">(44723) Less Than Eight Seconds</a>
+      </div>
+      <div>
+        <a href="sms:22333?&body=44809">(44809) SwaAmigos</a>
+      </div>
+      <div>
+        <a href="sms:22333?&body=44849">(44849) Binary Bots</a>
+      </div>
+      <div>
+        <a href="sms:22333?&body=44850">(44850) Beatles</a>
+      </div>
+    </div>
+
+    <div class="right">
+      Link to this page
+      <img src="qr-code.svg">
+    </div>
   </div>
-  <div>
-    <a href="sms:22333?&body=43775">(43775) Servettesaga</a>
-  </div>
-  <div>
-    <a href="sms:22333?&body=43816">(43816) SWA Tech Tok</a>
-  </div>
-  <div>
-    <a href="sms:22333?&body=43927">(43927) Tapped In</a>
-  </div>
-  <div>
-    <a href="sms:22333?&body=43960">(43960) SWAgents of Skywise AI</a>
-  </div>
-  <div>
-    <a href="sms:22333?&body=44064">(44064) Wild Turkeys</a>
-  </div>
-  <div>
-    <a href="sms:22333?&body=44134">(44134) SWAvengers</a>
-  </div>
-  <div>
-    <a href="sms:22333?&body=44138">(44138) Hackforce One</a>
-  </div>
-  <div>
-    <a href="sms:22333?&body=44627">(44627) DataXplorers</a>
-  </div>
-  <div>
-    <a href="sms:22333?&body=44668">(44668) McGenZ & Company</a>
-  </div>
-  <div>
-    <a href="sms:22333?&body=44681">(44681) SWAna-Get-Away</a>
-  </div>
-  <div>
-    <a href="sms:22333?&body=44698">(44698) Avant Garde</a>
-  </div>
-  <div>
-    <a href="sms:22333?&body=44723">(44723) Less Than Eight Seconds</a>
-  </div>
-  <div>
-    <a href="sms:22333?&body=44809">(44809) SwaAmigos</a>
-  </div>
-  <div>
-    <a href="sms:22333?&body=44849">(44849) Binary Bots</a>
-  </div>
-  <div>
-    <a href="sms:22333?&body=44850">(44850) Beatles</a>
-  </div>
-  
-  
-  <hr>
-  <div>
-    QR Code for this Page
-    <img src="qr-code.svg">
-  </div>
+
 </body>
+
 </html>
-
-
