@@ -1,101 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">Text
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
-  <style>
-    .row {
-      display: flex;
-    }
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+    <style>
+        .voting-options {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the child divs horizontally */
+            margin: 0 auto; /* Ensures the main container is centered */
+        }
 
-    /* Left column for text */
-    .left {
-      flex: 50%;
-      padding-right: 20px;
-    }
+        .option {
+            text-align: left; /* Ensures the text inside is left-aligned */
+            width: 100%; /* Adjust width to control the list width */
+            padding-bottom: 5%;
+        }
 
-    /* Right column for image */
-    .right {
-      flex: 50%;
-    }
+        a {
+            color:Tomato;
+        }
 
-    /* Image style */
-    .right img {
-      width: 100%;
-      height: auto;
-    }
-  </style>
+        span {
+            color:turquoise;
+        }
+    </style>
 </head>
 
 <body>
-  <h4>SWA Hackathon 2024 - Text to Vote For Your Favorite Presentation!</h4>
+    <h4 style="color:orange;">SWA Hackathon 2024 - Text to Vote For Your Favorite Presentation!</h4>
 
-  <div class="row">
-    <div class="left">
-      <span style="font-weight: bold;"> Option 1: Send Prepopulated Message </span>
-      <div>
-        <a href="sms:22333?&body=43658">(43658) Quest for Rewards</a>
-      </div>
-      <div>
-        <a href="sms:22333?&body=43679">(43679) The Swizzlers</a>
-      </div>
-      <div>
-        <a href="sms:22333?&body=43775">(43775) Servettesaga</a>
-      </div>
-      <div>
-        <a href="sms:22333?&body=43816">(43816) SWA Tech Tok</a>
-      </div>
-      <div>
-        <a href="sms:22333?&body=43927">(43927) Tapped In</a>
-      </div>
-      <div>
-        <a href="sms:22333?&body=43960">(43960) SWAgents of Skywise AI</a>
-      </div>
-      <div>
-        <a href="sms:22333?&body=44064">(44064) Wild Turkeys</a>
-      </div>
-      <div>
-        <a href="sms:22333?&body=44134">(44134) SWAvengers</a>
-      </div>
-      <div>
-        <a href="sms:22333?&body=44138">(44138) Hackforce One</a>
-      </div>
-      <div>
-        <a href="sms:22333?&body=44627">(44627) DataXplorers</a>
-      </div>
-      <div>
-        <a href="sms:22333?&body=44668">(44668) McGenZ & Company</a>
-      </div>
-      <div>
-        <a href="sms:22333?&body=44681">(44681) SWAna-Get-Away</a>
-      </div>
-      <div>
-        <a href="sms:22333?&body=44698">(44698) Avant Garde</a>
-      </div>
-      <div>
-        <a href="sms:22333?&body=44723">(44723) Less Than Eight Seconds</a>
-      </div>
-      <div>
-        <a href="sms:22333?&body=44809">(44809) SwaAmigos</a>
-      </div>
-      <div>
-        <a href="sms:22333?&body=44849">(44849) Binary Bots</a>
-      </div>
-      <div>
-        <a href="sms:22333?&body=44850">(44850) Beatles</a>
-      </div>
-    </div>
+    <div class="voting-options">
+        <div> Text Code to: </div>
+        <div style="font-size: 35px; color:Chartreuse;"> 22333 </div>
+        <hr>
 
-    <div class="right">
-      <span style="font-weight: bold;"> Option 2: Send Code Manually </span>
-      <div>
-        <a href="sms:22333"> Manual Text</a>
-      </div>
+        <div class="option">
+            Text <span style="font-weight: bold;">(43658)</span> to vote for: <a href="sms:22333?&body=43658">Quest for Rewards</a>
+        </div>
+        <div class="option">
+            Text <span style="font-weight: bold;">(43679)</span> to vote for: <a href="sms:22333?&body=43679">The Swizzlers</a>
+        </div>
+        <div class="option">
+            Text <span style="font-weight: bold;">(43775)</span> to vote for: <a href="sms:22333?&body=43775">Servettesaga</a>
+        </div>
+        <div class="option">
+            Text <span style="font-weight: bold;">(43816)</span> to vote for: <a href="sms:22333?&body=43816">SWA Tech Tok</a>
+        </div>
+        <div class="option">
+            Text <span style="font-weight: bold;">(43927)</span> to vote for: <a href="sms:22333?&body=43927">Tapped In</a>
+        </div>
+        <div class="option">
+            Text <span style="font-weight: bold;">(43960)</span> to vote for: <a href="sms:22333?&body=43960">SWAgents of Skywise AI</a>
+        </div>
+        <div class="option">
+            Text <span style="font-weight: bold;">(44064)</span> to vote for: <a href="sms:22333?&body=44064">Wild Turkeys</a>
+        </div>
+        <div class="option">
+            Text <span style="font-weight: bold;">(44134)</span> to vote for: <a href="sms:22333?&body=44134">SWAvengers</a>
+        </div>
+        <div class="option">
+            Text <span style="font-weight: bold;">(44138)</span> to vote for: <a href="sms:22333?&body=44138">Hackforce One</a>
+        </div>
+        <div class="option">
+            Text <span style="font-weight: bold;">(44627)</span> to vote for: <a href="sms:22333?&body=44627">DataXplorers</a>
+        </div>
+        <div class="option">
+            Text <span style="font-weight: bold;">(44668)</span> to vote for: <a href="sms:22333?&body=44668">McGenZ & Company</a>
+        </div>
+        <div class="option">
+            Text <span style="font-weight: bold;">(44681)</span> to vote for: <a href="sms:22333?&body=44681">SWAna-Get-Away</a>
+        </div>
+        <div class="option">
+            Text <span style="font-weight: bold;">(44698)</span> to vote for: <a href="sms:22333?&body=44698">Avant Garde</a>
+        </div>
+        <div class="option">
+            Text <span style="font-weight: bold;">(44723)</span> to vote for: <a href="sms:22333?&body=44723">Less Than Eight Seconds</a>
+        </div>
+        <div class="option">
+            Text <span style="font-weight: bold;">(44809)</span> to vote for: <a href="sms:22333?&body=44809">SwaAmigos</a>
+        </div>
+        <div class="option">
+            Text <span style="font-weight: bold;">(44849)</span> to vote for: <a href="sms:22333?&body=44849">Binary Bots</a>
+        </div>
+        <div class="option">
+            Text <span style="font-weight: bold;">(44850)</span> to vote for: <a href="sms:22333?&body=44850">Beatles</a>
+        </div>
     </div>
-  </div>
 
 </body>
 
