@@ -7,89 +7,172 @@
 
     <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
     <style>
+        @font-face {
+            font-family: Southwest Sans;
+            src: url(../fonts/SouthwestSans-Regular.eot);
+            src: url(../fonts/SouthwestSans-Regular.eot?) format("embedded-opentype"), url(../fonts/SouthwestSans-Regular.otf) format("truetype");
+            font-weight: 400;
+            font-style: normal;
+            font-display: block
+        }
+
+        @font-face {
+            font-family: Southwest Sans;
+            src: url(../fonts/SouthwestSans-Bold.eot);
+            src: url(../fonts/SouthwestSans-Bold.eot?) format("embedded-opentype"), url(../fonts/SouthwestSans-Bold.otf) format("truetype");
+            font-weight: 700;
+            font-style: normal;
+            font-display: block
+        }
+
+        @font-face {
+            font-family: Southwest Sans;
+            src: url(../fonts/SouthwestSans-Light.eot);
+            src: url(../fonts/SouthwestSans-Light.eot?) format("embedded-opentype"), url(../fonts/SouthwestSans-Light.otf) format("truetype");
+            font-weight: 300;
+            font-style: normal;
+            font-display: block
+        }
+
+        @font-face {
+            font-family: Southwest Sans;
+            src: url(../fonts/SouthwestSans-Medium.eot);
+            src: url(../fonts/SouthwestSans-Medium.eot?) format("embedded-opentype"), url(../fonts/SouthwestSans-Medium.otf) format("truetype");
+            font-weight: 500;
+            font-style: normal;
+            font-display: block
+        }
+
+        @font-face {
+            font-family: Southwest Sans;
+            src: url(../fonts/SouthwestSans-Black.eot);
+            src: url(../fonts/SouthwestSans-Black.eot?) format("embedded-opentype"), url(../fonts/SouthwestSans-Black.otf) format("truetype");
+            font-weight: 900;
+            font-style: normal;
+            font-display: block
+        }
+
+        body {
+            background-color: #1C2D6A;
+            font-family: Southwest Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+        }
+
         .voting-options {
             display: flex;
             flex-direction: column;
-            align-items: center; /* Centers the child divs horizontally */
-            margin: 0 auto; /* Ensures the main container is centered */
+            text-align: center;
+            align-items: center;
+            /* Centers the child divs horizontally */
+            margin: 0 auto;
+            /* Ensures the main container is centered */
         }
 
         .option {
-            text-align: left; /* Ensures the text inside is left-aligned */
-            width: 100%; /* Adjust width to control the list width */
+            text-align: left;
+            width: 100%;
             padding-bottom: 3%;
         }
 
         a {
-            color:Tomato;
+            color: turquoise;
         }
 
         span {
-            color:turquoise;
+            color: rgba(255, 191, 39, 1);
         }
 
         .row {
             display: flex;
         }
+
+        .logo-div {
+            position: relative;
+            align-items: center;
+            text-align: center;
+        }
+
+        .logo-img {
+            position: relative;
+        }
     </style>
 </head>
 
 <body>
-    <h4 style="color:orange;">SWA Hackathon 2024 - Text to Vote For Your Favorite Presentation!</h4>
+    <!-- <h4 style="color:orange;">SWA Hackathon 2024 -  to Vote For Your Favorite Presentation!</h4> -->
+    <div class="logo-div">
+        <img src="public/hackathon_logo.png" class="logo-img" />
+    </div>
+    <hr />
 
     <div class="voting-options">
         <div class="row">
-            <div style="font-size: 30px;"> Text Code to: <span style="color: chartreuse;"> 22333</span></div>
+            <div style="font-size: 30px;">Text Code to <span style="color: rgba(255, 191, 39, 1); font-weight: bold;">
+                    22333</span> to vote for your
+                favorite presentation!</div>
         </div>
         <hr>
 
         <div class="option">
-            Text <span style="font-weight: bold;">(43658)</span> to vote for: <a href="sms:22333?&body=43658">Quest for Rewards</a>
+            <span style="font-weight: bold;">(43658)</span> to vote for: <a href="sms:22333?&body=43658">Quest for
+                Rewards</a>
         </div>
         <div class="option">
-            Text <span style="font-weight: bold;">(43679)</span> to vote for: <a href="sms:22333?&body=43679">The Swizzlers</a>
+            <span style="font-weight: bold;">(43679)</span> to vote for: <a href="sms:22333?&body=43679">The
+                Swizzlers</a>
         </div>
         <div class="option">
-            Text <span style="font-weight: bold;">(43775)</span> to vote for: <a href="sms:22333?&body=43775">Servettesaga</a>
+            <span style="font-weight: bold;">(43775)</span> to vote for: <a
+                href="sms:22333?&body=43775">Servettesaga</a>
         </div>
         <div class="option">
-            Text <span style="font-weight: bold;">(43816)</span> to vote for: <a href="sms:22333?&body=43816">SWA Tech Tok</a>
+            <span style="font-weight: bold;">(43816)</span> to vote for: <a href="sms:22333?&body=43816">SWA Tech
+                Tok</a>
         </div>
         <div class="option">
-            Text <span style="font-weight: bold;">(43927)</span> to vote for: <a href="sms:22333?&body=43927">Tapped In</a>
+            <span style="font-weight: bold;">(43927)</span> to vote for: <a href="sms:22333?&body=43927">Tapped
+                In</a>
         </div>
         <div class="option">
-            Text <span style="font-weight: bold;">(43960)</span> to vote for: <a href="sms:22333?&body=43960">SWAgents of Skywise AI</a>
+            <span style="font-weight: bold;">(43960)</span> to vote for: <a href="sms:22333?&body=43960">SWAgents
+                of Skywise AI</a>
         </div>
         <div class="option">
-            Text <span style="font-weight: bold;">(44064)</span> to vote for: <a href="sms:22333?&body=44064">Wild Turkeys</a>
+            <span style="font-weight: bold;">(44064)</span> to vote for: <a href="sms:22333?&body=44064">Wild
+                Turkeys</a>
         </div>
         <div class="option">
-            Text <span style="font-weight: bold;">(44134)</span> to vote for: <a href="sms:22333?&body=44134">SWAvengers</a>
+            <span style="font-weight: bold;">(44134)</span> to vote for: <a href="sms:22333?&body=44134">SWAvengers</a>
         </div>
         <div class="option">
-            Text <span style="font-weight: bold;">(44138)</span> to vote for: <a href="sms:22333?&body=44138">Hackforce One</a>
+            <span style="font-weight: bold;">(44138)</span> to vote for: <a href="sms:22333?&body=44138">Hackforce
+                One</a>
         </div>
         <div class="option">
-            Text <span style="font-weight: bold;">(44627)</span> to vote for: <a href="sms:22333?&body=44627">DataXplorers</a>
+            <span style="font-weight: bold;">(44627)</span> to vote for: <a
+                href="sms:22333?&body=44627">DataXplorers</a>
         </div>
         <div class="option">
-            Text <span style="font-weight: bold;">(44668)</span> to vote for: <a href="sms:22333?&body=44668">McGenZ & Company</a>
+            <span style="font-weight: bold;">(44668)</span> to vote for: <a href="sms:22333?&body=44668">McGenZ &
+                Company</a>
         </div>
         <div class="option">
-            Text <span style="font-weight: bold;">(44681)</span> to vote for: <a href="sms:22333?&body=44681">SWALL Stars</a>
+            <span style="font-weight: bold;">(44681)</span> to vote for: <a href="sms:22333?&body=44681">SWALL
+                Stars</a>
         </div>
         <div class="option">
-            Text <span style="font-weight: bold;">(44698)</span> to vote for: <a href="sms:22333?&body=44698">Avant Garde</a>
+            <span style="font-weight: bold;">(44698)</span> to vote for: <a href="sms:22333?&body=44698">Avant
+                Garde</a>
         </div>
         <div class="option">
-            Text <span style="font-weight: bold;">(44723)</span> to vote for: <a href="sms:22333?&body=44723">Less Than Eight Seconds</a>
+            <span style="font-weight: bold;">(44723)</span> to vote for: <a href="sms:22333?&body=44723">Less Than
+                Eight Seconds</a>
         </div>
         <div class="option">
-            Text <span style="font-weight: bold;">(44809)</span> to vote for: <a href="sms:22333?&body=44809">SwaAmigos</a>
+            <span style="font-weight: bold;">(44809)</span> to vote for: <a href="sms:22333?&body=44809">SwaAmigos</a>
         </div>
         <div class="option">
-            Text <span style="font-weight: bold;">(44849)</span> to vote for: <a href="sms:22333?&body=44849">Binary Bots</a>
+            <span style="font-weight: bold;">(44849)</span> to vote for: <a href="sms:22333?&body=44849">Binary
+                Bots</a>
         </div>
     </div>
 
