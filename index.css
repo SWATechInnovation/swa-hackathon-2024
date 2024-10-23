@@ -1,33 +1,31 @@
 .mac-book-pro161-container {
-  width: 100%;
+  width: 100vw;
   display: flex;
-  overflow: auto;
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
 }
 .mac-book-pro161-mac-book-pro161 {
-  width: 100%;
-  height: 1117px;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   overflow: hidden;
   position: relative;
   align-items: flex-start;
   flex-shrink: 0;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #1C2D6A;
 }
-.mac-book-pro161-rectangle1 {
+/* .mac-book-pro161-rectangle1 {
   top: 0px;
   left: 0px;
-  width: 1728px;
-  height: 1117px;
+  width: 100vw;
+  height: 100vh;
   position: absolute;
-}
+} */
 .mac-book-pro161-text10 {
-  top: 219px;
-  left: 558px;
+  top: 20vh;
   color: rgba(255, 255, 255, 1);
-  width: 611px;
+  width: 100vw;
   height: auto;
   position: absolute;
   font-size: 36px;
@@ -50,8 +48,7 @@
 .mac-book-pro161-frame2 {
   gap: 8.592323303222656px;
   top: 384px;
-  left: 488px;
-  width: 690px;
+  width: 100vw;
   display: flex;
   position: absolute;
   align-items: center;
@@ -104,8 +101,7 @@
 .mac-book-pro161-frame3 {
   gap: 8.592323303222656px;
   top: 436.3350524902344px;
-  left: 488px;
-  width: 633px;
+  width: 100vw;
   display: flex;
   position: absolute;
   align-items: center;
@@ -158,8 +154,7 @@
 .mac-book-pro161-frame4 {
   gap: 8.592323303222656px;
   top: 488.6701354980469px;
-  left: 488px;
-  width: 626px;
+  width: 100vw;
   display: flex;
   position: absolute;
   align-items: center;
@@ -212,8 +207,7 @@
 .mac-book-pro161-frame5 {
   gap: 8.592323303222656px;
   top: 541.0051879882812px;
-  left: 488px;
-  width: 640px;
+  width: 100vw;
   display: flex;
   position: absolute;
   align-items: center;
@@ -266,8 +260,7 @@
 .mac-book-pro161-frame6 {
   gap: 8.592323303222656px;
   top: 593.3402709960938px;
-  left: 488px;
-  width: 592px;
+  width: 100vw;
   display: flex;
   position: absolute;
   align-items: center;
@@ -320,8 +313,7 @@
 .mac-book-pro161-frame7 {
   gap: 8.592323303222656px;
   top: 645.67529296875px;
-  left: 488px;
-  width: 753px;
+  width: 100vw;
   display: flex;
   position: absolute;
   align-items: center;
@@ -374,8 +366,7 @@
 .mac-book-pro161-frame8 {
   gap: 8.592323303222656px;
   top: 698.0103759765625px;
-  left: 488px;
-  width: 625px;
+  width: 100vw;
   display: flex;
   position: absolute;
   align-items: center;
@@ -426,9 +417,9 @@
   font-weight: 400;
 }
 .mac-book-pro161-image361 {
-  top: 106px;
-  left: 627px;
-  width: 462px;
-  height: 93px;
-  position: absolute;
+  top: 3vh;
+  width: 100vw;
+  height: 10vh;
+  position: relative;
+  justify-content: center;
 }
