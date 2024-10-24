@@ -103,6 +103,8 @@
 
         .row {
             display: flex;
+            text-align: center;
+            align-items: center;
         }
 
         .logo-div {
@@ -126,15 +128,21 @@
     <div class="logo-div">
         <img src="public/hackathon_logo.png" class="logo-img" />
     </div>
+    <hr>
+
+    <div class="row">
+        <div style="font-size: 30px;">Tap on the <button>Team Name</button> to vote for your favorite
+            presentation!</div>
+    </div>
+    <div>
+        <ul>
+            <li> <i> Votes are final and cannot be changed once sent  </i></li>
+            <li> <i> You will not receive a confirmation text, but we promise that your vote was counted! </i> </li>
+        </ul>
+    </div>
     <hr />
 
     <div class="voting-options">
-        <div class="row">
-            <div style="font-size: 30px;">Tap on the <button>Team Name</button> to vote for your favorite
-                presentation!</div>
-        </div>
-        <hr>
-
         <div class="option">
             <button onclick="window.location.href='sms:22333?&body=43658';">
                 Quest for Rewards
@@ -209,25 +217,25 @@
             <!-- <span class="highlight"></span> to vote for: <a href="sms:22333?&body=44698">Avant Garde</a> -->
             <button onclick="window.location.href='sms:22333?&body=44698';">
                 Avant Garde
-            </button> with:
+            </button> with: <span class="project">Spreading Viral LUV</span>
         </div>
         <div class="option">
             <!-- <span class="highlight"></span> to vote for: <a href="sms:22333?&body=44723">Less Than Eight Seconds</a> -->
             <button onclick="window.location.href='sms:22333?&body=44723';">
                 Less Than Eight Seconds
-            </button> with:
+            </button> with: <span class="project">SWAp</span>
         </div>
         <div class="option">
             <!-- <span class="highlight"></span> to vote for: <a href="sms:22333?&body=44809">SwaAmigos</a> -->
             <button onclick="window.location.href='sms:22333?&body=44809';">
                 SwaAmigos
-            </button> with:
+            </button> with: <span class="project">SWA Luv Hub</span>
         </div>
         <div class="option">
             <!-- <span class="highlight"></span> to vote for: <a href="sms:22333?&body=44849">Binary Bots</a> -->
             <button onclick="window.location.href='sms:22333?&body=44849';">
                 Binary Bots
-            </button> with:
+            </button> with: <span class="project">LuvForMiddleSeat</span>
         </div>
     </div>
 
